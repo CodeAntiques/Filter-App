@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <!-- Latest compiled and minified CSS & JS -->
+    <link rel="stylesheet" media="screen" href="//netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="//code.jquery.com/jquery.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    
+    <title>Filter App</title>
+</head>
+<body>
+    <style>
+        h1{
+            border: blue 2px solid;
+            background-color:burlywood;
+            font-style: inherit;
+            font-family: 'Raleway', sans-serif;
+        }
+        body{
+            background-color: lightgreen;
+        }
+        label{
+            background-color: mediumspringgreen;
+        }
+    </style>
+    <center>
+<h1>Filter App</h1>
+<hr>
+<label >Filter Color:</label>
+<input type="text" id="tint_color" placeholder="Type in the Filter Color">
+<br><br>
+<button class="btn btn-danger" onclick="Apply()">Apply Filter</button>
+<br><br><br>
+<button class="btn btn-primary" onclick="Take_snapshot()">Take Picture</button>
+</center>
+</body>
+
+</html>
